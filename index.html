@@ -44,11 +44,13 @@
 
 @media only screen and (max-width: 3000px) {
     h1 {
-      font-size: 70px!important;
+      font-size: 60px!important;
       padding: 10px!important;
-      padding-top: 40px!important;
+      padding-top: 0px!important;
+      padding-bottom: 0px!important;
     }
     h2{
+      font-size: 30px!important;
       margin-top: 50px!important;
     }
     .remove-left-padding{
@@ -60,19 +62,30 @@
     .col-md-8 {
       width: 100%!important;
     }
+    .my-3 {
+      margin-top: 0px!important;
+      margin-bottom: 0px!important;
+    }
   }
 
   @media only screen and (max-width: 800px) {
     h1 {
-      font-size: 35px!important;
+      font-size: 40px!important;
       padding: 10px!important;
       padding-top: 40px!important;
+    }
+    h2{
+      font-size: 20px!important;
     }
     .remove-left-padding{
       padding-left: 0px!important;
     }
     .remove-right-padding{
       padding-right: 0px!important;
+    }
+    .my-3 {
+      margin-top: 0px!important;
+      margin-bottom: 0px!important;
     }
 
   }
@@ -81,7 +94,9 @@
     h1 {
       font-size: 20px!important;
       padding: 10px!important;
-      padding-top: 40px!important;
+      padding-top: 10px!important;
+      padding-bottom: 0px!important;
+
     }
     h2{
       font-size: 20px!important;
@@ -92,6 +107,10 @@
     }
     .remove-right-padding{
       padding-right: 1rem!important;
+    }
+    .my-3 {
+      margin-top: 0px!important;
+      margin-bottom: 0px!important;
     }
 
   }
@@ -202,7 +221,7 @@ body {
     <div class="me-md-3 pt-3 px-3 px-md-5 overflow-hidden remove-left-padding">
       <div class="my-3 p-3">
         <h2 class="text-start" style="color: #a8a8a8; font-weight: 300;">Simple, intuitive, sports cards management to keep track of your investments.</h2>
-        <h2 class="text-start" style="color: #a8a8a8; font-weight: 300!important; margin-bottom: 40px;">Sign up for early access</h2>
+        <h2 class="text-start" style="color: #a8a8a8; font-weight: 300!important; margin-top: 20px!important;">Sign up for early access</h2>
         <!-- Begin Mailchimp Signup Form -->
         <div id="mc_embed_signup">
           <form action="https://10er.us7.list-manage.com/subscribe/post?u=01c80098667d07f5667193f47&amp;id=53fa1c5e17" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
@@ -220,7 +239,18 @@ body {
             <div id="mce-responses" class="clear">
               <div class="response" id="mce-error-response" style="display:none"></div>
               <div class="response" id="mce-success-response" style="display:none"></div>
-            </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            </div> 
+            <div class="mc-field-group input-group" style="color: #a8a8a8; padding-top: 12px; padding-bottom: 20px;">
+              <span style="padding-left: 10px;">
+                <input style="padding-left: 10px;" type="radio" value="iPhone" name="MMERGE3" id="mce-MMERGE3-0">
+                <label style="padding-left: 10px;" for="mce-MMERGE3-0">iPhone</label>
+              </span>
+                <span style="padding-left: 40px;">
+                  <input style="padding-left: 10px; color: #a8a8a8!important;" type="radio" value="Android" name="MMERGE3" id="mce-MMERGE3-1">
+                  <label style="padding-left: 10px;" for="mce-MMERGE3-1">Android</label>
+                </span>
+          </div>
+            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
               <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_01c80098667d07f5667193f47_53fa1c5e17" tabindex="-1" value=""></div>
                 <div class="clear">
                   <input type="submit" value="SUBSCRIBE" name="subscribe" id="mc-embedded-subscribe" class="rogerbutton">
